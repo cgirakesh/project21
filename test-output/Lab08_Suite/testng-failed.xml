@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Lab08_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Lab08_Test(failed)">
+    <classes>
+      <class name="PAC1.l8_1">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="addProductToCart" invocation-numbers="0 1"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- PAC1.l8_1 -->
+    </classes>
+  </test> <!-- Lab08_Test(failed) -->
+</suite> <!-- Failed suite [Lab08_Suite] -->
